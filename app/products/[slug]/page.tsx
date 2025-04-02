@@ -40,23 +40,23 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 lg:mx-20 md:mx-10 items-start">
               <div className="space-y-6">
                 <div className="relative aspect-square overflow-hidden rounded-xl">
-                        <Carousel>
-                        <CarouselContent>
-                            {product?.images.map((image, index) => (
-                            <CarouselItem key={index}>
-                                <div className="p-1">
-                                <Card>
-                                    <CardContent className="flex aspect-square items-center justify-center p-6">
-                                        <Image src={image || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
-                                    </CardContent>
-                                </Card>
-                                </div>
-                            </CarouselItem>
-                            ))}
-                        </CarouselContent>
-                        <CarouselPrevious />
-                        <CarouselNext />
-                        </Carousel>
+                <Carousel className="w-full max-w-xs">
+                  <CarouselContent>
+                    {product?.images.map((item, index) => (
+                      <CarouselItem key={index}>
+                        <div className="p-1">
+                          <Card>
+                            <CardContent className="flex aspect-video items-center justify-center p-6">
+                              <Image src={item} alt={product.name} />
+                            </CardContent>
+                          </Card>
+                        </div>
+                      </CarouselItem>
+                    ))}
+                  </CarouselContent>
+                  <CarouselPrevious />
+                  <CarouselNext />
+                </Carousel>
                 </div>
               </div>
               <div className="space-y-6">
