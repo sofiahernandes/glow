@@ -32,11 +32,11 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 lg:mx-20 md:mx-10 items-start">
               <div className="space-y-6">
                 <div className="relative aspect-square overflow-hidden rounded-xl">
-                  <Image src={product?.mainImage || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
+                  <Image src={product?.mainImage || "/placeholder.svg"} alt={product?.name} fill className="object-cover" />
                 </div>
-                {product.images.length > 0 && (
+                {product?.images && (
                   <div className="grid grid-cols-1 gap-4">
-                    <Carousel images={product?.images}/>
+                    <Carousel images={product?.images || ["/placeholder.svg"]}/>
                     {/*
                     {product.additionalImages.map((img, index) => (
                       <div key={index} className="relative aspect-video overflow-hidden rounded-xl">
