@@ -9,7 +9,11 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-export default function Carousel({ images }) {
+interface CarouselProps {
+  images: string[];
+}
+
+export default function Carousel({ images }: CarouselProps) {
   return (
     <Carousel className="w-full max-w-xs">
       <CarouselContent>

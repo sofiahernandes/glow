@@ -34,7 +34,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 <div className="relative aspect-square overflow-hidden rounded-xl">
                   <Image src={product?.mainImage || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
                 </div>
-                {product?.images.length > 0 && (
+                {product.images.length > 0 && (
                   <div className="grid grid-cols-1 gap-4">
                     <Carousel images={product?.images}/>
                     {/*
