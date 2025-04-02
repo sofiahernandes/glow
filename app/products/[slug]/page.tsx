@@ -40,7 +40,6 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 lg:mx-20 md:mx-10 items-start">
               <div className="space-y-6">
                 <div className="relative aspect-square overflow-hidden rounded-xl">
-                  {product?.images && (
                         <Carousel>
                         <CarouselContent>
                             {product?.images.map((image, index) => (
@@ -58,7 +57,6 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                         <CarouselPrevious />
                         <CarouselNext />
                         </Carousel>
-                  )}
                 </div>
               </div>
               <div className="space-y-6">
