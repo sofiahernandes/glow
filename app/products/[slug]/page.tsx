@@ -38,16 +38,15 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             </Link>
 
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 lg:mx-20 md:mx-10 items-start">
-              <div className="space-y-6">
-                <div className="relative aspect-square overflow-hidden rounded-xl">
-                <Carousel className="w-full max-w-xs">
+                <div className="relative overflow-hidden rounded-xl">
+                <Carousel>
                   <CarouselContent>
                     {product?.images.map((item, index) => (
                       <CarouselItem key={index}>
                         <div className="p-1">
                           <Card>
-                            <CardContent className="flex aspect-video items-center justify-center p-6">
-                              <Image src={item} alt={product.name} />
+                            <CardContent className="flex aspect-video items-center justify-center">
+                              <Image src={item} alt={product.name} className="object-cover"/>
                             </CardContent>
                           </Card>
                         </div>
@@ -58,7 +57,6 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                   <CarouselNext />
                 </Carousel>
                 </div>
-              </div>
               <div className="space-y-6">
                 <div>
                   <div className="flex flex-wrap gap-2 mb-3">
