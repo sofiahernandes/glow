@@ -12,7 +12,6 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-  type CarouselApi,
 } from "@/components/ui/carousel"
 
 import { products } from "@/lib/products"
@@ -43,18 +42,16 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                   <CarouselContent>
                     {product?.images.map((item, index) => (
                       <CarouselItem key={index} className="flex p-0 items-center justify-center">
-                          <div className="p-1 w-[120px]">
-                            <Card className="h-[80px]">
-                              <CardContent className="flex items-center justify-center p-6">
-                              <Image src={item} alt={product.name}/>
+                            <Card>
+                              <CardContent className="p-0">
+                                <Image src={item} alt={product.name} className="object-cover"/>
                               </CardContent>
                             </Card>
-                          </div>
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
+                  <CarouselPrevious className="relative left-0 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
+                  <CarouselNext className="relative right-0 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
                 </Carousel>
                 </div>
               <div className="space-y-6">
