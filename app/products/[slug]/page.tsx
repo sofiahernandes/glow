@@ -44,14 +44,14 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                       <CarouselItem key={index} className="flex p-0 items-center justify-center">
                             <Card className="h-full">
                               <CardContent className="p-0 h-full">
-                                <Image src={item} alt={product.name} className="object-cover h-full px-2"/>
+                                <Image src={item} alt={product.name} className="object-cover h-full mx-2"/>
                               </CardContent>
                             </Card>
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious className="relative justify-center translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
-                  <CarouselNext className="relative justify-center translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
+                  <CarouselPrevious className="relative left-1 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
+                  <CarouselNext className="relative right-1 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
                 </Carousel>
                 </div>
               <div className="space-y-6">

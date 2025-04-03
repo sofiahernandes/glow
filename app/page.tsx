@@ -9,7 +9,7 @@ import { products } from "@/lib/products"
 
 export default function Home() {
   // Get the first two products for the featured section
-  const featuredProducts = products.slice(0, 2)
+  const featuredProducts = products.slice(0, 3)
 
   return (
     <div className="flex flex-col min-h-screen">
