@@ -22,7 +22,7 @@ export default function AboutPage() {
 
         {/* Our Story */}
         <section className="w-full pt-8 pb-12 md:pb-24 lg:px-20 md:px-10">
-          <div className="container px-4 md:px-6">
+          <div className="container px-12">
             <div className="grid gap-6 lg:gap-12 items-center">
               <div className="space-y-4">
                 <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Our Story</div>
@@ -52,7 +52,7 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="grid sm:grid-cols-1 gap-6 grid-cols-2 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mx-20 mt-8">
               {values.map((value, index) => (
                 <div
                   key={index}

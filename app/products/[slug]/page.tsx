@@ -41,7 +41,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 <Carousel>
                   <CarouselContent>
                     {product?.images.map((item, index) => (
-                      <CarouselItem key={index} className="flex p-0 items-center justify-center">
+                      <CarouselItem key={index} className="flex gap-4 p-0 items-center justify-center">
                             <Card className="h-full">
                               <CardContent className="p-0 h-full">
                                 <Image src={item} alt={product.name} className="object-cover h-full mx-2"/>
@@ -50,8 +50,8 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                       </CarouselItem>
                     ))}
                   </CarouselContent>
-                  <CarouselPrevious className="relative left-1 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
-                  <CarouselNext className="relative right-1 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
+                  <CarouselPrevious className="relative left-1 mx-2 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
+                  <CarouselNext className="relative right-1 mx-2 translate-x-0 hover:translate-x-0 hover:bg-primary/90" />
                 </Carousel>
                 </div>
               <div className="space-y-6">
@@ -132,7 +132,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                   <div className="overflow-hidden rounded-xl">
                     <div className="aspect-video relative">
                       <Image
-                        src={relatedProduct.image || "/placeholder.svg"}
+                        src={relatedProduct.mainImage || "/placeholder.svg"}
                         alt={relatedProduct.name}
                         fill
                         className="object-cover transition-transform duration-300 group-hover:scale-105"
