@@ -34,7 +34,7 @@ export default function Home() {
               <div className="space-x-4">
                 <Button asChild className="bg-blue-600 hover:bg-blue-700">
                   <Link href="/products">
-                    Shop Now <ArrowRight className="ml-2 h-4 w-4" />
+                    Explore <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
                 <Button variant="outline" asChild>

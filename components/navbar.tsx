@@ -69,7 +69,7 @@ export default function Navbar() {
         </div>
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/" className="text-sm font-medium transition-colors hover:text-blue-600">
-            Home
+            Início
           </Link>
           <Link href="/products" className="text-sm font-medium transition-colors hover:text-blue-600">
             Produtos

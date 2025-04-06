@@ -10,12 +10,12 @@ import { Input } from "@/components/ui/input"
 import { products } from "@/lib/products"
 
 export default function ProductsPage() {
-  const [category, setCategory] = useState("all")
+  const [category, setCategory] = useState("todos")
   const [searchQuery, setSearchQuery] = useState("")
 
   const filteredProducts = products.filter((product) => {
     const matchesCategory =
-      category === "all" || product.category.some((cat) => cat.toLowerCase() === category.toLowerCase())
+      category === "todos" || product.category.some((cat) => cat.toLowerCase() === category.toLowerCase())
     const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase())
     return matchesCategory && matchesSearch
   })
@@ -28,7 +28,7 @@ export default function ProductsPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Products</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Produtos</h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
                   Explore nossas ferramentas criadas <br />
                   para potencializar sua vida diária
@@ -49,9 +49,9 @@ export default function ProductsPage() {
                     <SelectValue placeholder="Categoria" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="all">Todos</SelectItem>
+                    <SelectItem value="todos">Todos</SelectItem>
                     <SelectItem value="planners">Planners</SelectItem>
-                    <SelectItem value="calendars">Calendários</SelectItem>
+                    <SelectItem value="calendários">Calendários</SelectItem>
                     <SelectItem value="templates">Templates</SelectItem>
                   </SelectContent>
                 </Select>
