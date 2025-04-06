@@ -13,8 +13,8 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Glow</h1>
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">Our journey, mission, and story.</p>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Sobre a Glow</h1>
+                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">Nossa jornada, missão e história.</p>
               </div>
             </div>
           </div>
@@ -25,14 +25,13 @@ export default function AboutPage() {
           <div className="container px-12">
             <div className="grid gap-6 lg:gap-12 items-center">
               <div className="space-y-4">
-                <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Our Story</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Turning Struggle into Strength</h2>
-                <p className="text-gray-500 md:text-xl text-justify my-1">Life can be overwhelming. The never-ending to-do lists, the pressure to have it all together, the feeling that time is slipping through your fingers. We see you. We know what it’s like to crave structure but also freedom—to <span className="italic text-blue-700">dream big yet feel stuck in the everyday chaos</span>. That’s why Glow was born. Not just as a brand but as a movement. A space where women like you can heal, grow, and thrive.🦋</p>
+                <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Nossa História</div>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Transformando dificuldades em força</h2>
+                <p className="text-gray-500 md:text-xl text-justify my-1">A vida pode ser estressante. As listas de tarefas que nunca acabam, a pressão de dar conta de tudo, a sensação de que o tempo está escorrendo pelas mãos. Nós te entendemos. Sabemos como é desejar ter estrutura, mas também liberdade — <span className="italic text-blue-700">sonhar alto e, ao mesmo tempo, se sentir presa ao caos do dia a dia</span>. Foi por isso que a Glow nasceu. Não apenas como uma marca, mas como um movimento. Um espaço onde mulheres como você podem se curar, crescer e florescer.🦋</p>
                 
-                <p className="text-gray-500 md:text-xl text-justify my-1">Our digital planners, templates, and calendars aren’t just tools; they are <span className="italic text-blue-700">stepping stones</span> to the life you’ve been envisioning. We’re here to support your journey—one intentional step at a time.</p>
+                <p className="text-gray-500 md:text-xl text-justify my-1">Nossos planners digitais, templates e calendários não são apenas ferramentas; são <span className="italic text-blue-700">degraus rumo à vida que você sempre sonhou</span>. Estamos aqui para apoiar a sua jornada — um passo de cada vez.</p>
            
-                <p className="text-gray-500 md:text-xl text-justify my-1">At Glow, we believe that growth isn’t about perfection—it’s about progress. And we’re here to remind you: <span className="italic text-blue-700">YOU CAN DO IT</span>. You are worthy. You are limitless. <span className="italic text-blue-700">Welcome to Glow. Your next chapter starts now.</span>
-                </p>
+                <p className="text-gray-500 md:text-xl text-justify my-1">Na Glow, acreditamos que crescer não é sobre perfeição— é sobre progresso. E estamos aqui para te lembrar: <span className="italic text-blue-700">VOCÊ CONSEGUE</span>. Você é digna. Você é ilimitada. <span className="italic text-blue-700">Bem-vinda à Glow. Seu próximo capítulo começa agora.</span></p>
               </div>
             </div>
           </div>
@@ -45,14 +44,14 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Our Values</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">What we stand for</h2>
+                <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Nossos Valores</div>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Pelo que lutamos</h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                  The principles that guide everything we do.
+                  Os princípios que guiam tudo o que fazemos.
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mx-20 mt-8">
+            <div className="grid grid-cols-1 gap-8 mx-10 mt-8">
               {values.map((value, index) => (
                 <div
                   key={index}
@@ -74,10 +73,10 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl text-black">Ready to transform Your Life?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl text-black">Pronta para transformar Sua Vida?</h2>
                 <p className="mx-auto max-w-[700px] md:text-xl text-black">
-                  Explore our collection of digital products <br />
-                  designed to help you heal, grow, and thrive.
+                  Explore nossa coleção de produtos digitais <br />
+                  criados para te ajudar a se curar, crescer e florescer.
                 </p>
               </div>
               <Button asChild className="border border-blue-600 bg-blue-600 text-white hover:bg-white hover:text-blue-600">
@@ -96,23 +95,23 @@ export default function AboutPage() {
 const values = [
   {
     icon: "🦋",
-    title: "Thriving, Not Just Surviving",
-    description: "You deserve more than just getting by. Our mission is to help you step into the best version of yourself.",
+    title: "Viver, não apenas sobreviver",
+    description: "Você merece mais do que apenas sobreviver. Nossa missão é te ajudar a se tornar a sua melhor versão.",
   },
   {
     icon: "📈",
-    title: "Progress Over Perfection",
-    description: "Small, consistent steps lead to big changes. We celebrate every win, no matter how small.",
+    title: "Progresso acima da Perfeição",
+    description: "Passos pequenos e constantes geram grandes mudanças. Nós celebramos cada vitória, por menor que seja.",
   },
   {
     icon: "✨",
-    title: "Community & Connection",
-    description: "You’re never alone on this journey. Glow is more than a brand—it’s a space for support and inspiration.",
+    title: "Comunidade e Conexão",
+    description: "Você nunca está sozinho nesta jornada. A Glow é mais do que uma marca— é um espaço de apoio e inspiração.",
   },
   {
     icon: "🧠",
-    title: "Empowered Mindset",
-    description: "When you plan with intention, you unlock your potential. We design products that fuel confidence and clarity.",
+    title: "Mentalidade de Crescimento",
+    description: "Ao planejar com intenção, você desbloqueia seu potencial. Projetamos produtos que alimentam a confiança e a clareza.",
   },
 ]
 

@@ -9,9 +9,9 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Glow | Digital Products for Mindful Living",
+  title: "Glow | Produtos Digitais para uma Vida Melhor",
   description:
-    "Digital tools designed to help you organize your life, boost your productivity, and nurture your well-being.",
+    "Ferramentas digitais criadas para te ajudar a organizar a sua vida, aumentar sua produtividade e cuidar do seu bem-estar.",
     generator: 'v0.dev'
 }
 

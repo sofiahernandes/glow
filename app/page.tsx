@@ -20,15 +20,15 @@ export default function Home() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                  Here you&apos;ll heal,
-                  <br /> grow, and thrive 🦋
+                  Aqui você vai <br /> 
+                  crescer e florescer🦋
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg py-5">
-                  Digital tools designed to help you
+                  Ferramentas digitais que ajudam você
                   <br />
-                  organize your life, boost productivity,
+                  a organizar sua vida, aumentar sua
                   <br />
-                  and nurture your well-being.
+                  produtividade e nutrir seu bem-estar.
                 </p>
               </div>
               <div className="space-x-4">
@@ -38,7 +38,7 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button variant="outline" asChild>
-                  <Link href="/about">About Glow</Link>
+                  <Link href="/about">Sobre a Glow</Link>
                 </Button>
               </div>
             </div>
@@ -50,10 +50,10 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Featured Products</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Produtos em Destaque</h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                  Discover our most popular tools <br />
-                  to enhance your daily life.
+                  Discubra nossas ferramentas mais populares <br />
+                  para potencializar seu dia a dia.
                 </p>
               </div>
             </div>
@@ -73,14 +73,14 @@ export default function Home() {
                       <h3 className="font-semibold text-lg">{product.name}</h3>
                       <p className="text-sm text-gray-500 mt-1">{product.category[0]}</p>
                       <div className="flex items-center justify-between mt-4">
-                        <span className="font-bold text-blue-600">${product.price}</span>
+                        <span className="font-bold text-blue-600">R${product.price}</span>
                         <Button
                           size="sm"
                           variant="outline"
                           className="rounded-full hover:bg-blue-700 hover:text-blue-50 border-blue-700 text-bold text-blue-700"
                         >
                           <ShoppingBag className="h-4 w-4 mr-2" />
-                          Get Access
+                          Compre Agora
                         </Button>
                       </div>
                     </CardContent>
@@ -94,7 +94,7 @@ export default function Home() {
                 variant="outline"
                 className="rounded-full border-blue-700 bg-blue-700 text-white hover:bg-white hover:text-blue-700"
               >
-                <Link href="/products">View All Products</Link>
+                <Link href="/products">Ver todos os Produtos</Link>
               </Button>
             </div>
           </div>

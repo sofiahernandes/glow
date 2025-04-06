@@ -33,7 +33,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               className="inline-flex items-center text-sm font-medium text-blue-600 hover:underline hover:underline-offset-4 mb-6"
             >
               <ArrowLeft className="mr-1 h-4 w-4" />
-              Back to Products
+              Voltar para Produtos
             </Link>
 
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 lg:mx-20 md:mx-10 items-start">
@@ -71,10 +71,10 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                     <Button asChild className="bg-blue-600 hover:bg-blue-700 w-60">
                       <a href={product.url} target="_blank" rel="noopener noreferrer">
                         <ShoppingBag className="mr-2 h-5 w-5" />
-                        Get Yours Today!
+                        Compre Agora
                       </a>
                     </Button>
-                    <p className="text-xl font-bold text-blue-600 mt-1">${product.price}</p>
+                    <p className="text-xl font-bold text-blue-600 mt-1">R${product.price}</p>
                   </div>
                 </div>
 
@@ -89,7 +89,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 <Separator />
 
                 <div className="space-y-4">
-                  <h3 className="text-lg font-semibold">What&apos;s Included:</h3>
+                  <h3 className="text-lg font-semibold">O que está incluso:</h3>
                   <ul className="space-y-2">
                     {product.features.map((feature, index) => (
                       <li key={index} className="flex items-start">
@@ -103,7 +103,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 <Separator />
 
                 <div className="space-y-4">
-                  <h3 className="text-lg font-semibold">Format:</h3>
+                  <h3 className="text-lg font-semibold">Formatos:</h3>
                   <div className="flex flex-wrap gap-2">
                     {product.formats.map((format, index) => (
                       <div key={index} className="inline-flex items-center rounded-md border px-3 py-1 text-sm">
@@ -122,8 +122,8 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">You May Also Like</h2>
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">Explore to glow even more.</p>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Você também vai gostar</h2>
+                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">Explore para crescer ainda mais</p>
               </div>
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-8">

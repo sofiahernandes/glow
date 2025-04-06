@@ -1,67 +1,67 @@
 export const products = [
   {
     id: 1,
-    name: "My Finances 💸 (Personal Finance Tracker)",
-    slug: "my-finances",
+    name: "Minhas Finanças 💸 (Tracker de Finanças)",
+    slug: "minhas-financas",
     category: ["Planners"],
-    price: 9.99,
+    price: 21.21,
     mainImage: "/ipadMinhasFinancas.jpg",
     features: [
-      "Monthly budget and income tracking",
-      "Automatic calculations and responsive charts",
-      "Goal setting and goal budget management",
-      "Investments amount, type and return tracking",
-      "Monthly and annual overviews",
+      "Controle mensal de orçamento e renda",
+      "Cálculos automáticos e gráficos interativos",
+      "Definição de metas e gestão de orçamento por objetivo",
+      "Acompanhamento de investimentos por valor, tipo e retorno",
+      "Visão geral (panoramas) mensais e anuais",
     ],
     description:
-      "This comprehensive and intuitive tool makes managing and organizing your finances infinitely easier. With spreadsheets, analyses, charts, and overviews, you'll achieve the financial results you've always dreamed of! The My Finances planner includes an annual overview of your income and expenses, investments tracking, goal management, and detailed monthly spreadsheets where you can log your finances in different categories, types, and more.",
+      "Essa ferramenta completa e intuitiva tornará sua vida financeira infinitamente mais fácil de gerir e organizar. Através de planilhas, análises, gráficos e panoramas, você vai alcançar os resultados financeiros com que sempre sonhou! O planner Minhas Finanças inclui um panorama anual das suas entradas e gastos, controle de investimentos, gestão de metas, além de planilhas detalhadas de cada mês (onde você pode logar suas finanças em diferentes categorias, tipos e muito mais).",
     quote:
-      "'Reflect daily on your progress and your purpose—this inner dialogue is the compass that will guide your journey to success.'✨ – Warrant Buffet",
+      "'Reflita diariamente sobre seu progresso e seu propósito - esse diálogo interno é a bússola que guiará sua jornada para o sucesso.'✨ – Warrant Buffet",
     images: ["/ipadMinhasFinancas.jpg", "/phoneMinhasFinancas.png"],
-    formats: ["Google Sheets", "PDF", "Printable Format"],
-    url: "https://gumroad.com/checkout?layout=profile&product=koudro&quantity=1&referrer=https%3A%2F%2Fglowmerch.gumroad.com%2F%3F_gl%3D1*yjant9*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4wLjE3NDM0NDk5NjcuMC4wLjA.&_gl=1*1gtwzd5*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4xLjE3NDM0NTAwODEuMC4wLjA."
+    formats: ["Google Sheets", "PDF", "Imprimir"],
+    url: "https://gumroad.com/checkout?product=lmqar&quantity=1&_gl=1*16lxgrh*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzk0OTg5Mi4yOC4xLjE3NDM5NTA4MDQuMC4wLjA."
   },
   {
     id: 2,
-    name: "My Studies 📚 (Study Tracker)",
-    slug: "my-studies",
+    name: "Meus Estudos 📚 (Tracker de Estudos)",
+    slug: "meus-estudos",
     category: ["Planners"],
-    price: 9.99,
+    price: 21.21,
     mainImage: "/ipadMeusEstudos.jpg",
     features: [
-      "Active study progress analysis",
-      "Organize study by subject, topic, and date",
-      "Write highlight notes about a topic",
-      "Multiple-choice and Essay Questions analysis",
+      "Análise do progresso de estudos ativos",
+      "Organização dos estudos por matéria, tópico e data",
+      "Escreva anotações e destaques sobre os temas",
+      "Análise de questões de múltipla escolha e dissertativas",
     ],
     description:
-      "This all-in-one, easy-to-use tool simplifies the way you manage and organize your studies. With built-in spreadsheets, insights, visuals, and summaries, you'll achive the academic success you've always dreamed of! The My Studies planner includes multiple-choice and essay questions analysis, study time and insights tracking, and detailed charts which track your mistakes.",
+      "Esta ferramenta completa e fácil de usar simplifica a forma como você gerencia e organiza seus estudos. Com planilhas, insights, gráficos e resumos, você vai alcançar o sucesso acadêmico com que sempre sonhou! O planner Meus Estudos inclui análises de questões de múltipla escolha e dissertativas, acompanhamento do tempo/qualidade de estudo e insights, além de gráficos detalhados que rastreiam seus erros/dificuldades.",
     quote:
-      "'When it comes to the design of effective learning experiences, one provocative question is worth a hundred proclamations.'✨ – Bernard Bull",
+      "'Quando se trata de cultivar uma aprendizagem eficaz, uma única pergunta provocativa vale mais do que cem proclamações.'✨ – Bernard Bull",
     images: ["/ipadMeusEstudos.jpg", "/phoneMeusEstudos.png"],
-    formats: ["Google Sheets", "PDF", "Printable Format"],
-    url: "https://gumroad.com/checkout?layout=profile&product=ytytfu&quantity=1&referrer=https%3A%2F%2Fglowmerch.gumroad.com%2F%3F_gl%3D1*yjant9*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4wLjE3NDM0NDk5NjcuMC4wLjA.&_gl=1*1cjj03h*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0MzQ0OTk2Ny4yMC4xLjE3NDM0NTAxNDEuMC4wLjA."
+    formats: ["Google Sheets", "PDF", "Imprimir"],
+    url: "https://gumroad.com/checkout?product=qarml&quantity=1&_gl=1*15w5bgl*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzk0OTg5Mi4yOC4xLjE3NDM5NTA1NDEuMC4wLjA."
   },
   {
     id: 3,
-    name: "The Ultimate 2025 Personal Planner 🗓️",
-    slug: "ultimate-planner",
-    category: ["Planners", "Calendars"],
-    price: 7.77,
+    name: "Planner Definitivo 2025 🗓️",
+    slug: "planner-definitivo",
+    category: ["Planners", "Calendários"],
+    price: 16.16,
     mainImage: "/ipadPlannerDefinitivo.jpg",
     features: [
-      "Daily schedule with hourly time blocks",
-      "Weekly schedule for important highlights",
-      "Monthly habit tracking and calendars",
-      "Priority task management and goals sections",
-      "Gratitude and reflection sections",
+      "Agenda diária com blocos de horário",
+      "Agenda semanal com destaques importantes",
+      "Rastreamento de hábitos e calendários mensais",
+      "Gestão de tarefas prioritárias e seções para metas",
+      "Seções de gratidão e reflexão",
     ],
     description:
-      "This complete, user-friendly tool transforms the way you organize your routine and habits. With daily, weekly, and monthly planners, insights, habit trackers, and calendars, you’ll be on the right track to achieving the life you’ve always dreamed of!",
-    quote: "'You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.' ✨ – Dr. Seuss",
+      "Esta ferramenta completa e fácil de usar transforma a maneira como você organiza sua rotina e seus hábitos. Com planejadores diários, semanais e mensais, insights, tracker de hábitos e calendários, você estará no caminho certo para conquistar a vida com que sempre sonhou!",
+    quote: "'Você tem cérebro na cabeça. Tem pés nos sapatos. Pode se direcionar para qualquer caminho que desejar.' ✨ – Dr. Seuss",
     images: ["/ipadPlannerDefinitivo.jpg", "/phonePlannerDefinitivo.png"],
-    formats: ["PDF", "Printable Format"],
-    url: "https://gumroad.com/checkout?product=vfess&quantity=1&_gl=1*jt9yaq*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzg5NzY3OC4yNy4xLjE3NDM4OTc4OTcuMC4wLjA."
+    formats: ["PDF", "Imprimir"],
+    url: "https://gumroad.com/checkout?product=stcpti&quantity=1&_gl=1*1hkhse0*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzk0OTg5Mi4yOC4xLjE3NDM5NTA2NzMuMC4wLjA."
   },
 ]
 

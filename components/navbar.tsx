@@ -6,7 +6,6 @@ import { Menu, ShoppingBag, X } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Badge } from "@/components/ui/badge"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -19,7 +18,7 @@ export default function Navbar() {
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
                 <Menu className="h-5 w-5" />
-                <span className="sr-only">Open Toggle menu</span>
+                <span className="sr-only">Abrir menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="flex flex-col">
@@ -29,7 +28,7 @@ export default function Navbar() {
                 </Link>
                 <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
           
-                  <span className="sr-only">Close Toggle menu</span>
+                  <span className="sr-only">Fechar menu</span>
                 </Button>
               </div>
               <nav className="flex flex-col gap-4 py-8">
@@ -38,28 +37,28 @@ export default function Navbar() {
                   className="text-lg font-medium transition-colors hover:text-blue-600"
                   onClick={() => setIsOpen(false)}
                 >
-                  Home
+                  Início
                 </Link>
                 <Link
                   href="/products"
                   className="text-lg font-medium transition-colors hover:text-blue-600"
                   onClick={() => setIsOpen(false)}
                 >
-                  Products
+                  Produtos
                 </Link>
                 <Link
                   href="/about"
                   className="text-lg font-medium transition-colors hover:text-blue-600"
                   onClick={() => setIsOpen(false)}
                 >
-                  About us
+                  Sobre Nós
                 </Link>
                 <Link
                   href="/contact"
                   className="text-lg font-medium transition-colors hover:text-blue-600"
                   onClick={() => setIsOpen(false)}
                 >
-                  Contact us
+                  Contato
                 </Link>
               </nav>
             </SheetContent>
@@ -73,13 +72,13 @@ export default function Navbar() {
             Home
           </Link>
           <Link href="/products" className="text-sm font-medium transition-colors hover:text-blue-600">
-            Products
+            Produtos
           </Link>
           <Link href="/about" className="text-sm font-medium transition-colors hover:text-blue-600">
-            About Glow
+            Sobre Nós
           </Link>
           <Link href="/contact" className="text-sm font-medium transition-colors hover:text-blue-600">
-            Contact us
+            Contato
           </Link>
         </nav>
       </div>

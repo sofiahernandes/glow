@@ -30,8 +30,8 @@ export default function ProductsPage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Products</h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                  Browse our carefully designed <br />
-                  tools to enhance your daily life.
+                  Explore nossas ferramentas criadas <br />
+                  para potencializar sua vida diária
                 </p>
               </div>
             </div>
@@ -46,12 +46,12 @@ export default function ProductsPage() {
               <div className="w-full sm:w-auto">
                 <Select value={category} onValueChange={setCategory}>
                   <SelectTrigger className="w-full sm:w-[180px]">
-                    <SelectValue placeholder="Category" />
+                    <SelectValue placeholder="Categoria" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="all">All Categories</SelectItem>
+                    <SelectItem value="all">Todos</SelectItem>
                     <SelectItem value="planners">Planners</SelectItem>
-                    <SelectItem value="calendars">Calendars</SelectItem>
+                    <SelectItem value="calendars">Calendários</SelectItem>
                     <SelectItem value="templates">Templates</SelectItem>
                   </SelectContent>
                 </Select>
@@ -59,7 +59,7 @@ export default function ProductsPage() {
               <div className="w-full sm:w-auto">
                 <Input
                   type="search"
-                  placeholder="Search products..."
+                  placeholder="Procurar produtos..."
                   className="w-full sm:w-[250px]"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
@@ -93,7 +93,7 @@ export default function ProductsPage() {
                         <h3 className="font-semibold text-lg">{product.name}</h3>
                         <p className="text-xs text-gray-500 mt-1 line-clamp-2">{product.description}</p>
                         <div className="flex items-center justify-between mt-4">
-                          <span className="font-bold text-blue-600">${product.price}</span>
+                          <span className="font-bold text-blue-600">R${product.price}</span>
                         </div>
                       </CardContent>
                     </Card>
@@ -102,8 +102,8 @@ export default function ProductsPage() {
               </div>
             ) : (
               <div className="text-center py-12">
-                <h3 className="text-xl font-medium">No products found</h3>
-                <p className="text-gray-500 mt-2">Try adjusting your filters or search query</p>
+                <h3 className="text-xl font-medium">Nenhum produto encontrado</h3>
+                <p className="text-gray-500 mt-2">Tente ajustar seus filtros ou pesquisa</p>
               </div>
             )}
           </div>

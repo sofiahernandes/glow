@@ -8,12 +8,11 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Glow</h3>
             <p className="text-sm text-gray-500">
-              Tools designed to help you organize your life, boost your productivity, and nurture your
-              well-being. 🦋
+            Ferramentas digitais criadas para te ajudar a organizar sua vida, aumentar sua produtividade e cuidar do seu bem-estar. 🦋
             </p>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Products</h3>
+            <h3 className="text-lg font-bold">Produtos</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/products?category=planners" className="text-gray-500 hover:text-blue-600">
@@ -22,7 +21,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/products?category=calendars" className="text-gray-500 hover:text-blue-600">
-                  Calendars
+                  Calendários
                 </Link>
               </li>
               <li>
@@ -33,16 +32,16 @@ export default function Footer() {
             </ul>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Company</h3>
+            <h3 className="text-lg font-bold">Empresa</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/about" className="text-gray-500 hover:text-blue-600">
-                  About Us
+                  Sobre Nós
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="text-gray-500 hover:text-blue-600">
-                  Contact us
+                  Contato
                 </Link>
               </li>
             </ul>
@@ -52,12 +51,12 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="#" className="text-gray-500 hover:text-blue-600">
-                  Privacy Policy
+                  Política de Privacidade
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-gray-500 hover:text-blue-600">
-                  Terms of Service
+                  Termos de Serviço
                 </Link>
               </li>
             </ul>
