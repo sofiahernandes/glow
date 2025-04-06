@@ -44,7 +44,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                       <CarouselItem key={index} className="flex gap-4 p-0 items-center justify-center">
                             <Card className="h-full">
                               <CardContent className="p-0 h-full">
-                                <Image src={item} alt={product.name} className="object-cover h-full mx-2"/>
+                                <Image src={item} alt={product.name} className="object-cover h-full"/>
                               </CardContent>
                             </Card>
                       </CarouselItem>
