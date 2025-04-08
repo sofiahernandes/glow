@@ -8,9 +8,9 @@ export const products = [
     mainImage: "/ipadMinhasFinancas.jpg",
     features: [
       "Controle mensal de orçamento e renda",
-      "Cálculos automáticos e gráficos interativos",
-      "Definição de metas e gestão de orçamento por objetivo",
-      "Acompanhamento de investimentos por valor, tipo e retorno",
+      "Cálculos e gráficos automáticos",
+      "Definição de metas e gestão de orçamento",
+      "Acompanhamento dos seus investimentos por valor, tipo e retorno",
       "Visão geral (panoramas) mensais e anuais",
     ],
     description:
@@ -30,9 +30,9 @@ export const products = [
     mainImage: "/ipadMeusEstudos.jpg",
     features: [
       "Análise do progresso de estudos ativos",
-      "Organização dos estudos por matéria, tópico e data",
-      "Escreva anotações e destaques sobre os temas",
-      "Análise de questões de múltipla escolha e dissertativas",
+      "Organização dos seus estudos por matéria, tópico e data",
+      "Escreva e anexe anotações e destaques",
+      "Análise da sua performance em questões de múltipla escolha e dissertativas",
     ],
     description:
       "Esta ferramenta completa e fácil de usar simplifica a forma como você gerencia e organiza seus estudos. Com planilhas, insights, gráficos e resumos, você vai alcançar o sucesso acadêmico com que sempre sonhou! O planner Meus Estudos inclui análises de questões de múltipla escolha e dissertativas, acompanhamento do tempo/qualidade de estudo e insights, além de gráficos detalhados que rastreiam seus erros/dificuldades.",
@@ -51,9 +51,9 @@ export const products = [
     mainImage: "/ipadPlannerDefinitivo.jpg",
     features: [
       "Agenda diária com blocos de horário",
-      "Agenda semanal com destaques importantes",
-      "Rastreamento de hábitos e calendários mensais",
-      "Gestão de tarefas prioritárias e seções para metas",
+      "Agenda semanal para o mais importante",
+      "Tracker de hábitos e calendários mensais",
+      "Gestão de tarefas prioritárias e metas",
       "Seções de gratidão e reflexão",
     ],
     description:

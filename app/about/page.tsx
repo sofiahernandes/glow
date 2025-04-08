@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
@@ -22,11 +21,11 @@ export default function AboutPage() {
 
         {/* Our Story */}
         <section className="w-full pt-8 pb-12 md:pb-24 lg:px-20 md:px-10">
-          <div className="container px-12">
-            <div className="grid gap-6 lg:gap-12 items-center">
+          <div className="container px-4 md:px-6">
+            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Nossa História</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Transformando dificuldades em força</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Transformando as dificuldades em força</h2>
                 <p className="text-gray-500 md:text-xl text-justify my-1">A vida pode ser estressante. As listas de tarefas que nunca acabam, a pressão de dar conta de tudo, a sensação de que o tempo está escorrendo pelas mãos. Nós te entendemos. Sabemos como é desejar ter estrutura, mas também liberdade — <span className="italic text-blue-700">sonhar alto e, ao mesmo tempo, se sentir presa ao caos do dia a dia</span>. Foi por isso que a Glow nasceu. Não apenas como uma marca, mas como um movimento. Um espaço onde mulheres como você podem se curar, crescer e florescer.🦋</p>
                 
                 <p className="text-gray-500 md:text-xl text-justify my-1">Nossos planners digitais, templates e calendários não são apenas ferramentas; são <span className="italic text-blue-700">degraus rumo à vida que você sempre sonhou</span>. Estamos aqui para apoiar a sua jornada — um passo de cada vez.</p>
@@ -47,11 +46,11 @@ export default function AboutPage() {
                 <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Nossos Valores</div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Pelo que lutamos</h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                  Os princípios que guiam tudo o que fazemos.
+                  Os princípios que guiam o que fazemos.
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-8 mx-10 mt-8">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-8">
               {values.map((value, index) => (
                 <div
                   key={index}
@@ -73,7 +72,7 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl text-black">Pronta para transformar Sua Vida?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl text-black">Pronta para transformar<br />a Sua Vida?</h2>
                 <p className="mx-auto max-w-[700px] md:text-xl text-black">
                   Explore nossa coleção de produtos digitais <br />
                   criados para te ajudar a se curar, crescer e florescer.
