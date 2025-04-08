@@ -39,7 +39,7 @@ export default function ProductsPage() {
         </section>
 
         {/* Products Section */}
-        <section className="w-full py-12 md:py-24">
+        <section className="w-full py-6 md:py-24">
           <div className="container px-4 md:px-6">
             {/* Filters */}
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
