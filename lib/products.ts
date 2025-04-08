@@ -4,7 +4,7 @@ export const products = [
     name: "Minhas Finanças 💸 (Tracker de Finanças)",
     slug: "minhas-financas",
     category: ["Planners"],
-    price: 21.21,
+    price: 19.19,
     mainImage: "/ipadMinhasFinancas.jpg",
     features: [
       "Controle mensal de orçamento e renda",
@@ -19,14 +19,14 @@ export const products = [
       "'Reflita diariamente sobre seu progresso e seu propósito - esse diálogo interno é a bússola que guiará sua jornada para o sucesso.'✨ – Warrant Buffet",
     images: ["/ipadMinhasFinancas.jpg", "/phoneMinhasFinancas.png"],
     formats: ["Google Sheets", "PDF", "Imprimir"],
-    url: "https://gumroad.com/checkout?product=lmqar&quantity=1&_gl=1*16lxgrh*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzk0OTg5Mi4yOC4xLjE3NDM5NTA4MDQuMC4wLjA."
+    url: "https://gumroad.com/checkout?product=qgzyu&quantity=1&_gl=1*fnxiaf*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NDE0MTMwMy4zMy4xLjE3NDQxNDE1NDYuMC4wLjA."
   },
   {
     id: 2,
     name: "Meus Estudos 📚 (Tracker de Estudos)",
     slug: "meus-estudos",
     category: ["Planners"],
-    price: 21.21,
+    price: 19.19,
     mainImage: "/ipadMeusEstudos.jpg",
     features: [
       "Análise do progresso de estudos ativos",
@@ -40,7 +40,7 @@ export const products = [
       "'Quando se trata de cultivar uma aprendizagem eficaz, uma única pergunta provocativa vale mais do que cem proclamações.'✨ – Bernard Bull",
     images: ["/ipadMeusEstudos.jpg", "/phoneMeusEstudos.png"],
     formats: ["Google Sheets", "PDF", "Imprimir"],
-    url: "https://gumroad.com/checkout?product=qarml&quantity=1&_gl=1*15w5bgl*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzk0OTg5Mi4yOC4xLjE3NDM5NTA1NDEuMC4wLjA."
+    url: "https://gumroad.com/checkout?product=tdnaw&quantity=1&_gl=1*11ygzet*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NDE0MTMwMy4zMy4xLjE3NDQxNDE2ODMuMC4wLjA."
   },
   {
     id: 3,
@@ -61,7 +61,7 @@ export const products = [
     quote: "'Você tem cérebro na cabeça. Tem pés nos sapatos. Pode se direcionar para qualquer caminho que desejar.' ✨ – Dr. Seuss",
     images: ["/ipadPlannerDefinitivo.jpg", "/phonePlannerDefinitivo.png"],
     formats: ["PDF", "Imprimir"],
-    url: "https://gumroad.com/checkout?product=stcpti&quantity=1&_gl=1*1hkhse0*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0Mzk0OTg5Mi4yOC4xLjE3NDM5NTA2NzMuMC4wLjA."
+    url: "https://gumroad.com/checkout?product=pxfxq&quantity=1&_gl=1*ue6pvy*_ga*MTc5MjUyMTE2NC4xNzQyNDk2OTk1*_ga_6LJN6D94N6*MTc0NDE0MTMwMy4zMy4xLjE3NDQxNDE3MjMuMC4wLjA."
   },
 ]
 
